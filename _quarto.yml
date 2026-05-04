@@ -2,20 +2,20 @@ project:
   type: book
 
 book:
-  title: "Tropical forest loss in Queensland, Australia"
+  title: "Australian ecosystems synthesis pipeline"
   subtitle: "Ecosystem Indicator Workflow"
   author: JR Ferrer-Paris
   chapters:
     - index.qmd
-    - part: "Target ecosystem"
+    - part: "Catalogue"
       chapters: 
-      - Ecosystem-description.qmd
-      - Data-download-RE.ipynb
-      - Data-preparation-RE.ipynb
-    - part: "Indicator variables"
+      - catalogue/QLD-REDD.ipynb
+    - part: "Crossreferencing"
       chapters: 
-      - Data-download-2.ipynb
-    - Data-exploration.ipynb
+      - xref-matrix/QLD-REDD.ipynb
+    - part: "Examples"
+      chapters: 
+      - examples/QLD-T1_1.ipynb
     - Instructions.qmd
     - references.qmd
   margin-header: |

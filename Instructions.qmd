@@ -1,0 +1,71 @@
+# Instructions for Reproducibility
+
+Many users will be able to copy and paste code to test functionality in different computing environment. 
+
+However the code might not be fully reproducible in very different environments due to different software versions and configuration.
+This section includes some extra configuration notes and options for better documentation that will be helpful for better reproducibility. 
+
+## Python environment and modules
+
+We use a python environment to configure Jupyter lab with different computation kernels (Python, Bash and R)
+
+```sh
+
+python3 -m venv .venv
+
+source .venv/bin/activate
+
+pip install --upgrade pip
+
+pip install jupyterlab
+pip install numpy pandas geopandas fiona matplotlib owslib folium basemap plotly altair
+```
+
+The `requirements.txt` file has a list of the installed modules and versions
+
+```sh
+pip freeze > requirements.txt
+```
+
+
+And we can use it to install the same modules in another environment:
+
+```sh
+pip install -r requirements.txt
+```
+
+
+### Using leaflet/folium for showing maps
+
+In order to show leaflet maps and other widgets, 
+install:
+
+```sh
+pip install jupyter-leaflet
+pip install ipywidgets
+```
+And restart the server
+
+
+### Bash kernel
+
+For the bash kernel, we need to do these two steps:
+
+```sh
+pip install bash_kernel
+python -m bash_kernel.install
+```
+
+### Katana or other HPC
+
+In order to move data from/to Katana, Gadi or other HPC, we can set up [streamlined secure remote access](https://medium.com/@prateek.malhotra004/streamlining-secure-remote-access-a-guide-to-passwordless-ssh-connections-between-linux-servers-8c26bb008af9):
+
+```sh
+ssh-copy-id user@serverB_IP
+```
+
+## R 
+
+### GIS analysis in R 
+
+For faster raster computation in R we use package `exact_extract`.

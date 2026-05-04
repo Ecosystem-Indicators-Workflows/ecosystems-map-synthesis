@@ -3,33 +3,30 @@
 This document is part of the ARDC Ecosystem Indicators Workflows project.
 
 ::: {.callout-note}
-## Target ecosystem type
-Tropical forest in Queensland, Australia
+## Target ecosystem types
+- All terrestrial ecosystems of Australia. 
+- Selected palustrine wetland and other transitional ecosystems of Australia.
+- Selected subterranean ecosystems of Australia.
 :::
 
-::: {.callout-note}
-## Purpose
-
-To design an indicator of tropical forest loss in Queensland, Australia, using the JRC Tropical Moist Forest (TMF) dataset.
-:::
 
 ## Workflow plan 
 
 
 This resource includes the following components :
 
-- This overview
-- Brief description of the ecosystem and simple conceptual model indicating the key processes and features relevant to the selected indicator.
-- Instructions for data download (ecosystem distribution data and indicator variables)
+- Catalogue of input data
+- Instructions for data download (ecosystem distribution data)
+- Cross-referencing data
 - Examples of data exploration
-- Indicator design: methods and results
 - Additional instructions for configuration and reproducibility
 
 Use the links on the left to navigate through the different sections of this resource.
 
 ## Contributors
 
-Mark Tozer contributed the preliminary cross-referencing tables of Queensland's Regional Ecosystems to the IUCN Global Ecosystem Typology. Bernal Herrera-Fernandez and his teams shared code for data preparation for case studies in Costa Rica. 
+Mark Tozer and David Keith contributed the preliminary cross-referencing tables for state level maps. 
+
 
 ## Reproducibility statement
 
