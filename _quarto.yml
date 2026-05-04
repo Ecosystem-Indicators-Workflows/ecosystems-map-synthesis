@@ -1,0 +1,40 @@
+project:
+  type: book
+
+book:
+  title: "Tropical forest loss in Queensland, Australia"
+  subtitle: "Ecosystem Indicator Workflow"
+  author: JR Ferrer-Paris
+  chapters:
+    - index.qmd
+    - part: "Target ecosystem"
+      chapters: 
+      - Ecosystem-description.qmd
+      - Data-download-RE.ipynb
+      - Data-preparation-RE.ipynb
+    - part: "Indicator variables"
+      chapters: 
+      - Data-download-2.ipynb
+    - Data-exploration.ipynb
+    - Instructions.qmd
+    - references.qmd
+  margin-header: |
+    <center>
+    ![](/assets/logo_CES.png){height=66px}
+    </center>
+  page-footer:
+    left: "This site prepared by: [EIW project team](https://github.com/Ecosystem-Indicators-Workflows)"
+    center: "![](/assets/unsw_new_logo.png){height=20px} We acknowledge the Bedegal and Gadigal peoples who are the Traditional Owners of the lands where UNSW Sydney is located. We pay our respects to Elders past and present."
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: minty
+    css: styles.css
+    highlight-style: solarized
+    toc: true
+  pdf:
+    documentclass: scrreprt
+  epub:
+    cover-image: cover.png

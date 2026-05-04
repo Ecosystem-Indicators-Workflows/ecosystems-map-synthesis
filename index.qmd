@@ -1,0 +1,50 @@
+# Overview of this document
+
+This document is part of the ARDC Ecosystem Indicators Workflows project.
+
+::: {.callout-note}
+## Target ecosystem type
+Tropical forest in Queensland, Australia
+:::
+
+::: {.callout-note}
+## Purpose
+
+To design an indicator of tropical forest loss in Queensland, Australia, using the JRC Tropical Moist Forest (TMF) dataset.
+:::
+
+## Workflow plan 
+
+
+This resource includes the following components :
+
+- This overview
+- Brief description of the ecosystem and simple conceptual model indicating the key processes and features relevant to the selected indicator.
+- Instructions for data download (ecosystem distribution data and indicator variables)
+- Examples of data exploration
+- Indicator design: methods and results
+- Additional instructions for configuration and reproducibility
+
+Use the links on the left to navigate through the different sections of this resource.
+
+## Contributors
+
+Mark Tozer contributed the preliminary cross-referencing tables of Queensland's Regional Ecosystems to the IUCN Global Ecosystem Typology. Bernal Herrera-Fernandez and his teams shared code for data preparation for case studies in Costa Rica. 
+
+## Reproducibility statement
+
+This workflow uses Bash, R and Python for most steps of data download, preparation and analysis. All steps are documented using Jupyter notebooks and quarto. The workflow is designed to be reproducible, with instructions for data download and code execution provided in the relevant sections. The data used in this workflow is publicly available, and the code is open source. Instructions for setting up the environment and running the code are provided in the relevant sections. The workflow is designed to be run on a local machine, but can also be adapted to run on a cloud platform if desired.
+
+## Acknowledgements
+
+This work was partly supported by:
+
+- the ARC Industry Laureate Fellowship Project "Foundations for leading the nature positive ecosystem conservation agenda" ([IL240100030](https://www.arc.gov.au/2024-industry-laureate-profile-professor-david-keith)) led by Professor David Keith at UNSW Sydney, in partnership with Department of Climate Change, Energy, the Environment and Water, International Union for Conservation of Nature, Department of Energy, Environment and Water, Department of Biodiversity Conservation and Attractions, Department of Planning and Environment NSW, Department of Natural Resources and Environment Tasmania. 
+- [The Ian Potter Foundation](https://www.ianpotter.org.au) grant "Tracking ecosystems and adapting management to change (ID: 21592)". 
+
+The [Ecosystem Indicators Workflows](https://ardc.edu.au/project/) project received investment from the Australian Research Data Commons (ARDC). The ARDC is funded by the National Collaborative Research Infrastructure Strategy (NCRIS).
+
+![](/assets/1839-IPF-Master Logo-RGB-Lores.jpg){width="250px" style="padding: 25px;"}
+![](/assets/ARDC_logo_RGB.png){width="250px" style="padding: 25px;"}
+![](/assets/NCRIS-PROVIDER.png){width="200px" style="padding: 25px;"}
+
