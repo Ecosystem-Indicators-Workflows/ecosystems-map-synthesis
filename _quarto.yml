@@ -9,9 +9,11 @@ book:
     - index.qmd
     - part: "Catalogue"
       chapters: 
+      - catalogue/index.qmd
       - catalogue/QLD-REDD.ipynb
-    - part: "Crossreferencing"
+    - part: "GET Crossreferencing"
       chapters: 
+      - xref-matrix/MTozer-matrix.ipynb
       - xref-matrix/QLD-REDD.ipynb
     - part: "Examples"
       chapters: 

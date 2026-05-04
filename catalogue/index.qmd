@@ -1,0 +1,34 @@
+# Summary of input data
+
+## NVIS and state vegetation maps 
+
+| Title  | Version | Repository  |
+|--------|--------|--------|
+| NVIS | 7.0 |    |
+| Queensland's Regional Ecosystems | 13.1 (2024) | [Queensland Spatial Catalogue](https://qldspatial.information.qld.gov.au/catalogueadmin/catalog/search/resource/details.page?uuid=%7B01972496-CD6D-4314-B0C0-DA0E0421FB0A%7D)|
+| Tasmania TASVEG | 4.0 | [Land Information System Tasmania](https://data.thelist.tas.gov.au/datagn/srv/eng/main.home)|
+| ACT Government Vegetation Map | 2023 | ACT Government Geospatial Data Catalogue |
+| Victoria Ecological Vegetation Classes | | DataVic |
+| NSW| ||
+| Western Australia Native Vegetation Extent (DPIRD-005) | |Data WA|
+
+: Data sources for the National Vegetation Information System {.striped .hover}
+
+## Threatened Ecological communities
+
+
+| Title  | Version | Repository  |
+|--------|--------|--------|
+| Threatened Ecological Communities Greater Sydney  | (2024) | NSW SEED   |
+| PBC Act Ecological communities | | Find Environmental Data |
+
+: Data sources for Threatened Ecological Communities {.striped .hover}
+
+## Thematic maps 
+
+| Title  | Version | Repository  |
+|--------|--------|--------|
+| The Vegetation of the Australian Tropical Savannas | (2001) | [Queensland Government Open Data Portal](https://www.data.qld.gov.au/dataset/the-vegetation-of-the-tropical-savannas-australia) |
+
+: Data sources for other thematic maps {.striped .hover}
+
