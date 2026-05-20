@@ -16,7 +16,6 @@
 
 ## Threatened Ecological communities
 
-
 | Title  | Version | Repository  |
 |--------|--------|--------|
 | Threatened Ecological Communities Greater Sydney  | (2024) | NSW SEED   |
@@ -29,6 +28,7 @@
 | Title  | Version | Repository  |
 |--------|--------|--------|
 | The Vegetation of the Australian Tropical Savannas | (2001) | [Queensland Government Open Data Portal](https://www.data.qld.gov.au/dataset/the-vegetation-of-the-tropical-savannas-australia) |
+| Australian saltmarsh and sparsely vegetated saltmarsh map | 1.0 (2023) | [figshare](https://figshare.com/articles/dataset/Australian_saltmarsh_and_sparsely_vegetated_saltmarsh_map_version_1_0/24021465/1) |
 
 : Data sources for other thematic maps {.striped .hover}
 
